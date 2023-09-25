@@ -1,4 +1,4 @@
-# Green DAO
+# Farm DAO
 ## Abstract:
 Blockchains play a vital role in FARMER to track and trace the origin of food products in food supply chain. Supply Chain Management (SCM) is an essential business process in all spheres of the economy. SCM uses speciﬁc processes to connect from producer to consumer requirement through a chain. In a BCT(Blockchain Technology) based system, “records are immutable and trusted, eliminating the need for third parties to be involved. Potential farmer-facing impacts include ensuring that farmers receive timely and complete payments through the use of smart contracts and helping farmers to capture real-time data to more effectively manage their crops and harvests. Another beneﬁt of using BCT in FARMER is security where hacking or tampering the existing data is impossible by any intermediary. Artificial Intelligence also plays a major in role in Suggestions, recommendation and removing sensitive contents of our web application. And also we create a platform for learn farming to increase FARMER productivity to our society. As some farmers may illiterate we integrate and support via whatsapp bot with Indian cultural.
 <br/>
@@ -66,19 +66,6 @@ To build this solution, the following steps would be required:
 
 
 ## Presentation Link:
-https://www.canva.com/design/DAFkvK-pbFY/4KiaVQ6Gbw3oc8nGIoenTw/edit?utm_content=DAFkvK-pbFY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-
-## Youtube Link;
-https://youtu.be/xuxNUpk5qfo
-
-## deployed Link:
-https://green-dao-icp.vercel.app/
-
-## Screenshots
-![image](https://github.com/vmmuthu31/Green-DAO-ICP/assets/88650559/3a4c7e01-5c63-4b8c-ae23-db5f291e7c4b)
-![WhatsApp Image 2023-07-16 at 14 42 58](https://github.com/vmmuthu31/Green-DAO-ICP/assets/88650559/655e0680-4e90-4fdb-a108-8b866d5824c1)
-![WhatsApp Image 2023-07-16 at 14 46 24](https://github.com/vmmuthu31/Green-DAO-ICP/assets/88650559/37f5845e-a88c-4758-a8de-dd5bb0c84536)
-![WhatsApp Image 2023-07-16 at 14 47 12](https://github.com/vmmuthu31/Green-DAO-ICP/assets/88650559/a3922608-4332-48c1-ba87-4cc10806f11a)
-![image](https://github.com/vmmuthu31/Green-DAO-ICP/assets/88650559/13132ec5-351d-4fbd-9b9e-30f8977a3c9a)
+https://www.canva.com/design/DAFvf6WinmE/CpImp5LSg6jGwuXqnuMbog/edit?utm_content=DAFvf6WinmE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 
