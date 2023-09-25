@@ -1,0 +1,190 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body.light-mode {
+    background-color: #fff;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+html{
+    background-color: #140506;
+    
+  }
+
+  .glow {
+    
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #37d244, 0 0 40px #37d244, 0 0 50px #37d244, 0 0 60px #37d244, 0 0 70px #37d244;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #37d244, 0 0 40px #37d244, 0 0 50px #37d244, 0 0 60px #37d244, 0 0 70px #37d244, 0 0 80px #37d244;
+    }
+  }
+
+           
+  .btn-grad3 {
+    background-image: linear-gradient(to right, #27da24 0%, #0ABFBC  51%, #27da24  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left:300px;
+    margin-top:60px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    /* box-shadow: 0 0 20px #eee; */
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad3:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 767px) {
+    .btn-grad3 {
+      background-image: linear-gradient(to right, #27da24 0%, #0ABFBC  51%, #27da24  100%);
+      margin: 10px;
+      padding: 15px 45px;
+      text-align: center;
+      text-transform: uppercase;
+      margin-left:70px;
+      margin-top:50px;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: white;            
+      /* box-shadow: 0 0 20px #eee; */
+      border-radius: 10px;
+      display: block;
+    }
+}
+ 
+  /* .nadula{
+    background-color:#140506;
+    text-align: center;
+    width:880px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: white 2px solid;
+  } */
+
+  /* .nadulav{
+    background-color:#140506;
+    text-align: center;
+    width:880px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: white 2px solid;
+    margin-top:30px;
+  } */
+
+   /* for desktop */
+   .whatsapp_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom:70px;
+    right: 80px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.whatsapp-icon {
+    margin-top: 10px;
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+    .fa-whatsapp {
+        margin-bottom: 8px;
+    }
+
+    .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        bottom: 30px;
+        right: 10px;
+        font-size: 22px;
+    }
+}
+
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* styles for each icon */
+.fa-500px:before {
+  content: "\f26e";
+}
+.fa-adjust:before {
+  content: "\f042";
+}
+.fa-adn:before {
+  content: "\f170";
+}
+
+         
+.btn-grad {
+  background-image: linear-gradient(to right, #FC354C 0%, #0ABFBC  51%, #FC354C  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+         
+.btn-grad1 {
+  background-image: linear-gradient(to right, #F00000 0%, #DC281E  51%, #F00000  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad1:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}

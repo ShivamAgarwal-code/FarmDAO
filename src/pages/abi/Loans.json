@@ -1,0 +1,399 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_farmerName",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_farmerAadhaarNo",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_loanAmount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_reasonForLoan",
+				"type": "string"
+			}
+		],
+		"name": "applyLoan",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_farmerAadhaarNo",
+				"type": "uint256"
+			}
+		],
+		"name": "approveLoan",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_farmerAadhaarNo",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_loanAmount",
+				"type": "uint256"
+			}
+		],
+		"name": "repayLoan",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_farmerAadhaarNo",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_loanAmount",
+				"type": "uint256"
+			}
+		],
+		"name": "sendLoanAmount",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_newOrganizer",
+				"type": "address"
+			}
+		],
+		"name": "updateOrganizer",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "farmerIndexes",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "farmers",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "farmerName",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "farmerAadhaarNo",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "loanAmount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "reasonForLoan",
+				"type": "string"
+			},
+			{
+				"internalType": "bool",
+				"name": "isLoanApproved",
+				"type": "bool"
+			},
+			{
+				"internalType": "uint256",
+				"name": "approvalTime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "bool",
+				"name": "hasReceivedLoan",
+				"type": "bool"
+			},
+			{
+				"internalType": "uint256",
+				"name": "startTime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "bool",
+				"name": "isLoanRepaid",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getAllLoanDetails",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "farmerName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "farmerAadhaarNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "loanAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "reasonForLoan",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "isLoanApproved",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "approvalTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "hasReceivedLoan",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "startTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "isLoanRepaid",
+						"type": "bool"
+					}
+				],
+				"internalType": "struct FarmerLoanContract.Farmer[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_farmerAadhaarNo",
+				"type": "uint256"
+			}
+		],
+		"name": "getLoanDetails",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "farmerName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "farmerAadhaarNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "loanAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "reasonForLoan",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "isLoanApproved",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "approvalTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "hasReceivedLoan",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "startTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "isLoanRepaid",
+						"type": "bool"
+					}
+				],
+				"internalType": "struct FarmerLoanContract.Farmer",
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_farmerAadhaarNo",
+				"type": "uint256"
+			}
+		],
+		"name": "isFarmerPaid",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "LOAN_DURATION",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_farmerAadhaarNo",
+				"type": "uint256"
+			}
+		],
+		"name": "verifyLoan",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "farmerName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "farmerAadhaarNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "loanAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "reasonForLoan",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "isLoanApproved",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "approvalTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "hasReceivedLoan",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "startTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "isLoanRepaid",
+						"type": "bool"
+					}
+				],
+				"internalType": "struct FarmerLoanContract.Farmer",
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
